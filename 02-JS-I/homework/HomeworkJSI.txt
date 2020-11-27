@@ -1,0 +1,31 @@
+Variable
+
+    es espacio done almacenamos un dato, en donde poodemos guardar 
+    cualquier tipo de informacion que necesitemos para nuestro programa
+
+String
+
+    son cadenas de texto, se definen con coimillas '' o "", cualquiera 
+    de las dos maneras se define un String
+
+Funciones (argumentos, return)
+
+    una funcion es un pedazo del codigo que puede ser llamado por otro 
+    codigo o variable que haga refencia a la funcion.
+    Los argumentos en una funcion son la informacion de entrada de la misma, 
+    y esta puede o no devolver una salida (return)
+
+Declaraciones if 
+
+    estas son unas condiciones que le damos al codigo para que al ejecutarse, 
+    haga una verificacion y SI (if) esta se cumpla nos devuelva un resultado
+    ya sea una string, un valor booleano, un numero, accion, etc.
+    por ejemplo
+    if ( x === z ) {
+        return " X y Z son iguales"; 
+    }
+    lo que hace si x es igual a z va devolvernos una string diciendo que x y z son iguales
+
+Valores Booleanos
+
+    estos son datos logicos, y solo pueden ser verdadero (True) o falso (flase)
