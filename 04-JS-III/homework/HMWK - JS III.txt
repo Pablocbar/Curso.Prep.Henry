@@ -1,0 +1,3 @@
+Arrays 
+        los array son ojetos de tipo lista ordenada, y puden contener valores como 
+        numereos, string, buleanos, funciones e inclusive otro array

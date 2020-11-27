@@ -1,0 +1,22 @@
+For
+    crea un bucle o loop y consiste en 3 expresiones encerradas con el parentesis,
+    en primer lugar declaramos la variable, luego la condicion y por ultimo incrementamos la variable, 
+    lo que hace que recorra la exprecion y evaluando la condicon hasta que esta no se cumpla
+
+&& || !
+
+    Estos son operadores logicos, y cada uno cumple una funcion
+
+    && - En el caso de && (and) lo que hace es evaluar  expreciones, 
+         siempre que todas las expresiones sean true devolvera true, si alguna 
+         o todas las expresionces son flase devolvera false
+         si la expresion A es true && (Y) la expresion B es true el resultado sera true, 
+         si alguno o las dos son false siempre sera false
+
+    || - A este operador de lo conoce como "OR" u "Ó", lo que haces que evaluar dos expresiones
+         siempre que alguna de las dos expresiones sea true devolvera true  
+         ejemplo
+         si A es True o B es true devolvera true pero si A es true y B es False devolvera True, 
+         lo que haces es buscar una de las expresiones sea true siempre que una sea true devolvera true 
+
+    ! - NOT este operador se llama "NOT" o "NO" lo que hace es devolver el valor contrario del que se le de
