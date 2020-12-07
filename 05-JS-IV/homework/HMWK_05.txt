@@ -1,0 +1,43 @@
+* Objetos
+    Los objetos son colecciones de datos relacionados puden ser datos boolenaos, string, numeros, funciones, arrays
+    estos se denominan como propiedades y metodos o tambien como key y value, en donde en 
+    la propiedad damos la clasificacion(key) y en el metodo asignamos su funcion o valor (value) 
+    eje
+    los objetos se instancian dentro de llaves ({}) y las propiedades se definen con dos puntos (:) 
+    y separan por comas (,) una propiedad de la otra.
+    Ejemplo:
+
+    perro = {
+        nombre: "Quilla",
+        raza: "Bluehealer",
+        edad: 4,
+        color: ["gris", "marron", "negro"]
+        ladrar: function () { console.log ("wof, wof")}
+    }
+
+* Propiedades
+    en un objeto las propiedad son tambien conocidas como Key, ya que estas son las llaves
+    para acceder a los diferentes metodos que tengamos dentro de un objeto, asi como en un array 
+    podemos acceder mediante los numeros por la posicion que ocupan (0, 1, 2 3) en los objetos se 
+    definen como variables o string o numeros, para identificar estas llaves o propiedades de un objeto
+* Métodos
+    los mmetodos son las fuciones (function) que dentro de los objetos los llamaremos metodos.
+
+* Bucle `for…in`
+    cuando queremos iterar dentro de un objeto y acceder tanto a su key como a su value, 
+    usaremos esta variante del ciclo for, q al diferencia del for que va iterando dentro de los valores numericos del arreglo,
+    en objetos es diferente ya que pueden ser diferentes tipos (str,num, var, etc)
+    y se declara de la siguiente formas
+            for ( const propiedad in objeto)
+
+* Notación de puntos vs notación de corchetes
+    ambas formas son formas de acceder a las propiedades de los objetos, con la diferencia de que si 
+    queremos acceder a una propiedad que sea un string con un espacio, como por ejemplo
+    menu = {
+        "Entrada": "huevos revueltos"
+        "Plato principal" : "Bife a la criolla",
+        "postre": "Ensalada de frutas"
+    }
+    // para acceder al plato principal deberiamos usar un [] y no el punto ya que este no acepta espacios
+
+        return menu["Plato principal]; 
