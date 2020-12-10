@@ -1,0 +1,33 @@
+body {
+    background-image: url(fondo-cv.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    background-color: #2a8a99;
+    padding-left: 15px;
+}
+#divId {
+    text-align: justify;
+    padding: 0rem 13rem 0rem 13rem;    
+}
+#divId01{
+    text-align: center;
+}
+img {
+    width: 180px;
+}
+a {
+    color: #3eab8b;
+    text-decoration: none;
+    font-style: italic;
+}
+i {
+    color: #acf2dd;
+}
